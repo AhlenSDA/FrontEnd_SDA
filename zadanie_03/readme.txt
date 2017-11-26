@@ -1,4 +1,4 @@
-stworzyć grida gdzie będzie 10 wierszy
+﻿stworzyć grida gdzie będzie 10 wierszy
 
 w pierwszym wierszu niech będzie 5 kolumn
 w drugim 12
