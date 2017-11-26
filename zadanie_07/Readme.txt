@@ -1,1 +1,1 @@
-Z wykorzystaniem funkcji JavaScript stwórz prosty kalkulator
+Z wykorzystaniem funkcji JavaScript stwórz prosty kalkulator. U¿ytkownik podaje dwie liczby do przeliczenia.

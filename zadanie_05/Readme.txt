@@ -1,1 +1,1 @@
-Dodaj stopkê
+Dodaj footer

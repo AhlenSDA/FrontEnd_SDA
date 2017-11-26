@@ -1,15 +1,38 @@
 <html>
     <head>
         <title>zadanie 7</title>
-
     </head>
     <body>
-
         <script>
 
-            // functions to create here!
+            var value_1 = Number(prompt("Enter first value: "));
+            var value_2 = Number(prompt("Enter second value: "));
             
-        </script>
+            var calculator = {
+  
+                sum: function(a, b) {
+                    alert(a + "+" + b + "=" + (a + b));
+                },
 
+                subtract: function(a, b) {
+                    alert(a + "-" + b + "=" + (a - b));
+                },
+
+                multiply: function(a, b) {
+                    alert(a + "*" + b + "=" + (a * b));
+                },
+
+                divide: function(a, b) {
+                    alert(a + "/" + b + "=" + (a / b));
+                },
+            };
+            
+            calculator.sum(value_1, value_2);
+            calculator.subtract(value_1, value_2);
+            calculator.multiply(value_1, value_2);
+            calculator.divide(value_1, value_2);
+            
+
+        </script>
     </body>
 </html>
