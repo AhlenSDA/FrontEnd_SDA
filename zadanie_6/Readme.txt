@@ -1,0 +1,1 @@
+Stwórz obiekt a w nim funkcje, która wywo³a podany skrypt.
