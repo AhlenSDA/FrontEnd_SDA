@@ -1,0 +1,1 @@
+Create 4 objects, each with different background color and text inside. Every corner must have one object with proper text align.
