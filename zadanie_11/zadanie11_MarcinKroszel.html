@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>zad11</title>
+
+        <style> /* CSS */
+            #xx {
+                width: 50px;
+                height: 50px;
+                background: orange;
+            } 
+
+        </style>
+    </head>
+    <body>
+
+        <div id="xx"></div>
+
+        <script>
+
+            var square = document.getElementById("xx");
+
+            function animate(elem,style,unit) {
+                var leftpos = 0;
+                var timer = setInterval(function() {
+                    leftpos += 1;
+                    elem.style[style] = leftpos+unit;
+                    if (leftpos > 200) {
+                        elem.style.background = "black";
+                        elem.style.height = 100;
+                        elem.style.width = 100;
+                    }}, 15);
+            }
+
+            animate(
+                document.getElementById('xx'),
+                "marginLeft","px"
+            );
+
+        </script>
+    </body>
+</html>

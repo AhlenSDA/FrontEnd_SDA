@@ -1,0 +1,1 @@
+Po przekroczeniu 200px kwadracik ma zmieniæ swoje tlo i rozmiary

@@ -1,0 +1,1 @@
+Z wykorzystaniem funkcji JavaScript stwórz prosty kalkulator
